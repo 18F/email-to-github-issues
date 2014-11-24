@@ -6,8 +6,11 @@ Great for approving TLS certificates.
 
 TODO:
 
-* Validate that webhook POSTs are signed by Mandrill.
-* Handle more than one event in a single POST. (Currently looks at only the first one.)
+- [ ] Allow whitelisting of email addresses and domains.
+- [ ] Allow whitelisting of email subject lines.
+- [ ] Allow enforcement of valid DKIM signatures.
+- [ ] Allow validation that webhook POSTs are signed by Mandrill.
+- [ ] Handle more than one event in a single POST. (Currently looks at only the first one.)
 
 ### Setup
 
@@ -32,12 +35,6 @@ module.exports = {
     repo: "tls-approvals", // private repo
     token: "XXXXXXXXXXXXXXXXXXXXXX",
     labels: []
-  },
-
-  // whitelist of From addresses or domains
-  whitelist: {
-    emails: ["eric.mill@gsa.gov"],
-    domains: ["comodo.com", "sslmate.com"]
   },
 
   debug: true

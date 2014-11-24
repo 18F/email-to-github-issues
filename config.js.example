@@ -7,12 +7,6 @@ module.exports = {
     labels: [] // labels for generated issues
   },
 
-  // whitelist of From addresses or domains
-  whitelist: {
-    emails: [],
-    domains: [] // e.g. "sslmate.com"
-  },
-
   // print received POSTs to console
   debug: true
 }
