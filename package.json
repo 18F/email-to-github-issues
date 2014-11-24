@@ -1,0 +1,15 @@
+{
+  "name": "email-to-github-issues",
+  "version": "0.0.1",
+  "description": "A Mandrill Inbound email webhook that opens GitHub issues.",
+
+  "main": "app.js",
+  "private": true,
+
+  "dependencies": {
+    "express": "4.x",
+    "errorhandler": "*",
+    "body-parser": "*",
+    "github": "*"
+  }
+}
