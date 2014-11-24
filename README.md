@@ -1,6 +1,6 @@
 ## Email -> GitHub Issues
 
-A webhook to receive inbound email POSTs from Mandrill, that then opens GitHub Issues with the details.
+A webhook to receive [inbound email POSTs](http://help.mandrill.com/entries/21699367-Inbound-Email-Processing-Overview) from [Mandrill](https://mandrillapp.com/), that then opens GitHub Issues with the details.
 
 Great for approving TLS certificates.
 
@@ -11,7 +11,7 @@ TODO:
 - [ ] Allow whitelisting of email addresses and domains.
 - [ ] Allow whitelisting of email subject lines.
 - [ ] Allow enforcement of valid DKIM signatures.
-- [ ] Allow validation that webhook POSTs are signed by Mandrill.
+- [ ] Allow [validation](http://help.mandrill.com/entries/23704122-Authenticating-webhook-requests) that webhook POSTs are signed by Mandrill.
 - [ ] Handle more than one event in a single POST. (Currently looks at only the first one.)
 
 ### Setup
