@@ -4,6 +4,8 @@ A webhook to receive inbound email POSTs from Mandrill, that then opens GitHub I
 
 Great for approving TLS certificates.
 
+Currently accepts any emails from anyone and opens issues with them. A bit dangerous!
+
 TODO:
 
 - [ ] Allow whitelisting of email addresses and domains.
