@@ -2,7 +2,7 @@
 
 A webhook to receive inbound email POSTs from Mandrill, that then opens GitHub Issues with the details.
 
-Great for managing approval of TLS certificates.
+Great for approving TLS certificates.
 
 TODO:
 
