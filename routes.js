@@ -29,7 +29,7 @@ module.exports = function(app, config) {
     // ignore events other than "inbound"
     if (mandrill.event != "inbound") {
       console.log(mandrill.event);
-      return res.send("Nope.");
+      return res.status(400).send("Nope.");
     }
 
     // TODO: reject event if DKIM signature is invalid.
